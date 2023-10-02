@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output/tailwind.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="your-budget-container">
+        <div class="">
+            <div class="your-budget-title"> <img src="./assets/images/budget.webp" alt="" class="w-5 h-5" > <span> What is your budget?</span></div>
+            <div class="your-budget-select ">
+                <select class=" w-full appearance-none" style="background-image: url('assets/images/select-arrows-grey-2.webp');
+                    background-repeat: no-repeat; background-size: 10px 50%; 
+                    background-position: 98% 10px ; background-color: #ffff; padding-left: 12px; padding-right: -20px;">
+                    <option disabled selected>Please select one</option>
+                    <option class="hover:opacity-5">Less than $1,000</option>
+                    <option>$1,000 - $5,000</option>
+                    <option>$5,000 - $20,000</option>
+                    <option>$20,000 - $50,000</option>
+                    <option>$50,000 - $100,000</option>
+                    <option>$100,000 - $250,000</option>
+                    <option>$250,000 - $500,000</option>
+                    <option>$500,000 - $1 million</option>
+                    <option >More than $1 million</option>
+                    <option >Need guidance</option>
+                  </select>
+              </div>
+              <div class="form-control mt-[34px]">
+                <label class="cursor-pointer label flex justify-start items-center">
+                  <input type="checkbox"  class="checkbox w-[18px] h-[18px]" />
+                  <span class="label-text text-[14px] text-[400] text-[#8a8f90] ml-[10px]">I'm interested in financing options</span>
+                </label>
+              </div>
+              <div class="your-budget-button"><button> CONTINUE </button></div> 
+        </div>
+    </div>
+</body>
+</html>

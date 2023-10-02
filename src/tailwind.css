@@ -1,0 +1,310 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+  
+  
+
+
+  body{
+    @apply flex max-h-screen w-full justify-center items-center box-border 
+  }
+  .abc-container{
+    @apply text-center md:w-[444px] w-full
+  }
+  .popular-project-content{
+    @apply  md:mt-[107px] mt-[82px]
+  }
+  .projects-intro-title{
+    @apply text-[12px]  text-[#4a4a4a] tracking-[.4px] font-[500] leading-[17px]  mb-[25px]
+  }
+  .intro-question{
+    @apply text-[20px]  text-[#4a4a4a] font-[800] leading-[23px]  mb-[30px] 
+  }
+  .question-input{
+    @apply md:px-0 px-5
+  }
+  .question-input input{
+    @apply text-[14px] border-t-2 border-l-[#ebebeb] border-r-[#ebebeb] border-x-[.5px]  text-[#555] rounded-sm outline-none  min-h-[45px] 
+              mb-[20px] w-full py-[6px] px-[12px] block overflow-visible 
+  }
+  .question-button{
+    @apply md:px-[0px] px-[20px] 
+  }
+  .question-button button{
+    @apply bg-[#4abde9] text-[#fff] inline-block cursor-pointer w-full rounded-[3px] text-[600] text-center text-[14px] pt-[7px]
+    px-[18px] pb-[7px] leading-6 hover:bg-[#1ba6db]
+  }
+  .project-title{
+     @apply mb-4 text-[12px] leading-[14px] text-[500] mt-[16px] text-[#4a4a4a] tracking-[.4px]
+  } 
+  .popular-projects section{
+    @apply grid md:grid-cols-4 grid-cols-2 md:gap-x-[3px] md:gap-y-[3px] gap-x-[12px] gap-y-[8px] text-[10px]  text-[#4a4a4a] font-[800] leading-[23px] mr-[6px] md:ml-[2px] ml-[6px]
+  } 
+  .popular-projects-section-css{
+   @apply  text-[10px]  text-[#4a4a4a] tracking-[.3px] font-[500] leading-[12px] md:h-[76.3px] md:w-[104.9px] w-full h-[40px] box-border relative inline-block
+            border-[.7px] border-[#dfdfdf] rounded-[3px] text-center hover:border-[#4abde9] hover:text-[#4abde9]  float-left 
+  }
+  .projects-position-new{
+    @apply md:absolute md:bottom-[8px] translate-x-[-1%] translate-y-1/2 md:translate-x-0 md:translate-y-0 text-center w-full md:block
+  }
+  .project-position-css{
+    @apply md:absolute md:bottom-[13px] translate-x-[-1%] translate-y-[50%] md:translate-x-0 md:translate-y-0  text-center w-full md:block 
+  }
+  .popular-project-title img{
+    @apply hidden
+  } 
+
+   /*  when project started  */
+
+
+  .project-started-title{
+    @apply text-[20px]  text-[#4a4a4a] tracking-[.4px] font-[800] leading-[23px]  mb-[30px]
+  }
+  .project-started-main{
+    @apply text-center md:w-[444px] w-full md:mt-[111px] mt-[82px] px-5
+  }
+  .project-button button{
+    @apply text-[16px] leading-[18px] border-[#dfdfdf] border-[1px] text-[500]  text-[#4a4a4a] rounded-[6px] outline-none 
+    text-center h-[53px] md:w-[335px] m-auto block p-[7.5px] mb-[10px] align-middle items-start cursor-pointer tracking-[.5px]
+    hover:border-[#4abde9] w-full
+  }
+
+ /*   property type */
+
+
+  .property-type-question{
+    @apply md:text-[20px] text-[16px]  text-[#4a4a4a] font-[800] leading-[23px] tracking-[.4px] mb-[30px]
+  }
+  .property-type-section-css{
+    @apply   text-[#4a4a4a] h-[120px] md:w-[157.5px] w-[94%]  box-border relative inline-block
+             border-[0.7px] border-[#dfdfdf] rounded-[2.2px] text-center hover:border-[#4abde9] hover:text-[#4abde9] 
+   }
+   .property-position-css{
+    @apply absolute bottom-[15px] text-center w-full block 
+  }
+  .property-content{
+    @apply  md:mt-[110px] mt-[82px]
+  }
+  .property-type-content section{
+    @apply grid grid-cols-2 gap-x-[18px] gap-y-[12px] text-[#4a4a4a]
+  } 
+  .proterty-type-container{
+    @apply text-center md:w-[335px] w-full mr-[-15px] md:px-[0px] px-5
+  }
+  .property-type-text{
+    @apply text-[13px]  tracking-[.3px] font-[500] text-center mt-[16px] 
+  }
+
+  /* email address */
+
+
+  .email-address-container{
+    @apply text-center md:w-[335px] w-full sm:w-full md:mt-[110px] mt-[82px] mx-[20px]
+  }
+  .email-address-title{
+    @apply text-[16px] md:text-[20px]  text-[#4a4a4a] font-[800] tracking-[.4px] mb-[22px]
+  }
+  
+  .email-button button{
+    @apply bg-[#4abde9] text-[#fff] inline-block cursor-pointer w-full rounded-[3px] text-[600] text-center text-[14px] pt-[7px]
+     px-[18px] pb-[7px] leading-6 hover:bg-[#1ba6db]
+  }
+  .email-input{
+    @apply relative h-[34px] block py-[6px]
+  }
+.email-input input{
+  @apply block border-t-2 border-l-[#ebebeb] border-r-[#ebebeb] border-x-[.5px] py-[11px]  font-[400] pr-[12px] rounded-[2px] text-[#555555] text-[14px]  w-full transition
+  outline-none focus:outline-[#f39f17] focus:outline-1 outline-offset-0
+}
+  
+.email-validity{
+  @apply mt-[22px] pb-[10px] text-left italic text-[12px] text-[600] text-[#f39f17]
+ }
+
+ /* phone */
+
+
+
+ .phone-address-container{
+  @apply text-center md:w-[480px] w-full  md:mt-[110px] mt-[82px] mx-[20px]
+}
+.phone-address-title{
+  @apply text-[16px] md:text-[20px]  text-[#4a4a4a] font-[800] tracking-[.4px] mb-[22px]
+}
+
+.phone-button button{
+  @apply bg-[#4abde9] text-[#fff] inline-block cursor-pointer w-full rounded-[3px] text-[600] text-center text-[14px] pt-[7px]
+   px-[18px] pb-[7px] leading-6 hover:bg-[#1ba6db] mt-[36px]
+}
+.phone-input{
+  @apply relative h-[34px] block py-[6px] 
+}
+.phone-input input{
+@apply block border-t-2 border-l-[#ebebeb] border-r-[#ebebeb] border-x-[.5px] py-[11px]  font-[400] pr-[12px] rounded-[2px] text-[#555555] text-[14px]  w-full transition
+           outline-none focus:outline-[#f39f17] focus:outline-1 outline-offset-0
+}
+.phone-description{
+  @apply text-center text-[10px]  text-[600] text-[#9b9b9b] md:w-[435px] leading-[12px] md:m-auto w-full px-[5px]
+}
+
+
+/* name */
+
+
+
+.name-container{
+  @apply text-center md:w-[335px] w-full  md:mt-[110px] mt-[82px] mx-[20px]
+}
+.name-title{
+  @apply text-[16px] md:text-[20px]  text-[#4a4a4a] font-[800] tracking-[.4px] mb-[28px]
+}
+.name-fullname{
+  @apply mt-[4px] text-left italic text-[12px] text-[600] text-[#f39f17]
+}
+.name-button button{
+  @apply bg-[#4abde9] text-[#fff] inline-block cursor-pointer w-full rounded-[3px] text-[600] text-center text-[14px] pt-[7px]
+   px-[18px] pb-[7px] leading-6 hover:bg-[#1ba6db] mt-[10px]
+}
+.name-input{
+  
+}
+.name-input input{
+@apply block border-t-2 border-l-[#ebebeb] border-r-[#ebebeb] border-x-[.5px] py-[11px]  font-[400] pr-[12px] rounded-[2px] text-[#555555] text-[14px]  w-full transition
+        outline-none pl-3  focus:outline-[#f39f17] focus:outline-1 outline-offset-0
+}
+
+/*  constructor bits */
+
+
+
+  .constractors-title{
+    @apply text-[16px] md:text-[20px]  text-[#4a4a4a] tracking-[.4px] font-[800] leading-[23px]  mb-[30px]
+  }
+  .constractors-main{
+    @apply text-center md:w-[520px] w-full md:mt-[110px] mt-[82px] px-5
+  }
+  .constractors-button{
+    @apply md:w-[335px] mx-auto
+  }
+  .constractors-button button{
+    @apply text-[16px] leading-[18px] border-[#dfdfdf] border-[1px] text-[500]  text-[#4a4a4a] rounded-[6px] outline-none 
+    text-center h-[53px] md:w-[335px] m-auto block p-[7.5px] mb-[10px] align-middle items-start cursor-pointer tracking-[.4px]
+    hover:border-[#4abde9] w-full
+  }
+  .recommended-span {
+    @apply absolute pl-[14px] w-[50%] text-left text-[#9b9b9b] text-[12px] top-[16px]
+  }
+
+
+  /*  contructor need  */
+
+
+
+  .constructor-need-container{
+    @apply text-center md:w-[335px] w-full sm:w-full md:mt-[110px] mt-[82px] mx-[20px]
+  }
+  .constructor-need-title{
+    @apply text-[16px] md:text-[20px]  text-[#4a4a4a] font-[800] tracking-[.4px] mb-[22px]
+  }
+  .constructor-need-button{
+    @apply mt-[20px]
+  }
+  .constructor-need-button button{
+    @apply bg-[#4abde9] text-[#fff] inline-block cursor-pointer w-full rounded-[3px] text-[600] text-center text-[14px] pt-[7px]
+     px-[18px] pb-[7px] leading-6 hover:bg-[#1ba6db] 
+  }
+  .constructor-need-input{
+    @apply relative h-[34px]  py-[6px]  
+  }
+.constructor-need-input input{
+  @apply block border-t-[2.7px] border-t-[#dfdfdf] border-l-[1px] border-r-[#dfdfdf] border-[#dfdfdf] border-r-[2px] border-b-[1px] py-[11px]  font-[400] pr-[12px] rounded-[2px] text-[#555555] text-[14px]  w-full transition
+  outline-none focus:outline-[#4abde9] focus:outline-1 outline-offset-0 
+}
+ .city-state{
+   @apply mt-9
+ }
+.city-state input{
+  @apply block border-t-2 border-l-[1px] border-r-[2px] border-b-[1px] border-t-[#dfdfdf]  border-r-[#dfdfdf] border-[#dfdfdf] py-[11px]  font-[400] pl-[12px] rounded-[2px] text-[#555555] text-[14px]  w-full transition
+  outline-none focus:outline-[#4abde9] focus:outline-1 outline-offset-0 
+  }
+.zipcode input{
+  @apply block border-t-[2.7px] border-t-[#dfdfdf] border-r-[#dfdfdf] border-[#dfdfdf]  border-l-[1px] border-r-[2px] border-b-[1px]  py-[11px]  font-[400] pl-[12px] rounded-[2px] text-[#555555] text-[14px]  w-full transition
+  outline-none focus:outline-[#4abde9] focus:outline-1 outline-offset-0
+}
+.city-state-zipcode{
+  @apply flex justify-center items-end gap-[6px]
+}
+
+
+/* relationship property */
+
+
+.relationship-property-title{
+  @apply text-[16px] md:text-[20px]  text-[#4a4a4a] tracking-[.4px] font-[800] leading-[23px]  mb-[30px]
+}
+.relationship-property-main{
+  @apply text-center md:w-[520px] w-full md:mt-[110px] mt-[82px] px-5
+}
+.relationship-property-button {
+  @apply md:w-[335px] md:mx-auto
+}
+.relationship-property-button button{
+  @apply text-[16px] leading-[18px] border-[#dfdfdf] border-[1px] text-[500]  text-[#4a4a4a] rounded-[6px] outline-none 
+  text-center h-[53px] md:w-[335px] m-auto block p-[7.5px] mb-[10px] align-middle items-start cursor-pointer tracking-[.5px]
+  hover:border-[#4abde9] w-full
+}
+
+
+
+/* Your budget */
+
+
+  .your-budget-container{
+    @apply text-center md:w-[335px] w-full sm:w-full md:mt-[110px] mt-[82px] mx-[20px]
+  }
+  .your-budget-title{
+    @apply text-[16px] md:text-[20px]  text-[#4a4a4a] font-[800] tracking-[.4px] mb-[22px] flex justify-center items-center gap-3
+  }
+  
+  .your-budget-button button{
+    @apply bg-[#4abde9] text-[#fff] inline-block cursor-pointer w-full rounded-[3px] text-[600] text-center text-[14px] pt-[7px]
+     px-[18px] pb-[7px] leading-6 hover:bg-[#1ba6db] mt-5
+  }
+  .your-budget-select{
+    @apply relative h-[34px] block py-[6px]
+  }
+  .your-budget-select select{
+  @apply block border-t-2 border-l-[#ebebeb] border-r-[#ebebeb] border-x-[.5px] py-[11px]  font-[400] pr-[12px] rounded-[2px] text-[#555555] text-[14px] leading-5 w-full transition
+  outline-none  text-left
+  }
+  
+  
+
+/* description project */
+
+
+.description-project-container{
+  @apply text-center md:w-[520px] w-full sm:w-full md:mt-[110px] mt-[82px] mx-[20px]
+}
+.description-project-title{
+  @apply text-[16px] md:text-[20px]  text-[#4a4a4a] font-[800] tracking-[.4px] mb-[22px]
+}
+
+.description-project-button button{
+  @apply bg-[#4abde9] text-[#fff] inline-block cursor-pointer w-full rounded-[3px] text-[600] text-center text-[14px] pt-[7px]
+   px-[18px] pb-[7px] leading-6 hover:bg-[#1ba6db]
+}
+.attach-plan-photo{
+  @apply text-[#4abde9] p-[9px] text-[14px] leading-4 border-dashed mb-4 text-center border cursor-pointer border-[#4abde9] w-full block
+}
+.terms-service{
+  @apply text-[12px] text-[#9b9b9b] text-left my-[9px]
+}
+.description-project-textarea textarea{
+@apply block border-t-2 border-l-[#ebebeb] border-r-[#ebebeb] border-x-[.5px] py-[6px]  font-[400] px-[12px] rounded-[2px] text-[#555] text-[14px]  w-full transition
+     h-[217px] outline-none resize-none mb-5
+}
+
+
+
